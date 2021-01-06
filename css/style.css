@@ -65,18 +65,22 @@ p{
 #bg-dark{
   background-color: darkolivegreen;
   color: antiquewhite;
+
 }
 
-#bg-light{
+.bg-light{
   background-color: rgb(96, 98, 196);
   color: antiquewhite;
 }
 
-#bg-primary{
+.bg-primary{
   background-color: rgb(206, 96, 129);
   color: antiquewhite;
 }
 
+.clr{
+  clear: both;
+}
 
 /*  */
 
@@ -168,4 +172,28 @@ p{
 }
 .home-info .info-content p{
   padding-bottom: 30px;
+}
+
+/* features */
+#features{
+  border: 2px solid;
+  
+}
+.box{
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  
+}
+.box i{
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+#main-footer{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
 }
